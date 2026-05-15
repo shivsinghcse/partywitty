@@ -4,8 +4,8 @@ import { CheckCircle } from 'lucide-react'
 const VerificationSuccess = ({ onContinue }) => {
   return (
     <div className="min-h-screen flex items-center justify-center p-6 bg-gray-100">
-      <div className="bg-white rounded- w-full max-w- p-8 text-center">
-        <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center relative">
+      <div className="bg-white rounded- w-200 h-[648px] shadow-2xl rounded-2xl p-8 flex flex-col items-center justify-center">
+        <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-linear-to-br from-purple-500 to-pink-500 flex items-center justify-center relative">
           <img src="./images/user.jpg" className="w-28 h-28 rounded-full object-cover" />
           <div className="absolute -bottom-1 -right-1 bg-[#7464E4] rounded-full p-2">
             <CheckCircle className="w-6 h-6 text-white fill-white" />

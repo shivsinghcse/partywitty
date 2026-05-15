@@ -8,8 +8,7 @@ const VerificationIntro = ({ onStart, onBack }) => {
         <button
               onClick={onBack}
               className="absolute top-2 right-2 z-20 w-8 h-8 bg-[#E8E6F5] rounded-full flex items-center justify-center hover:cursor-pointer"
-        >
-              
+        >   
           <CircleX className="w-6 h-6 text-[#7464E4]"/>
         </button>
         

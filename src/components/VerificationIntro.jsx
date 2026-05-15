@@ -51,7 +51,7 @@ const VerificationIntro = ({ onStart, onBack }) => {
 
         <button 
           onClick={onStart}
-          className="w-fit  bg-gradient-to-r from-[#C229C0] to-[#FC4B6A] text-white py-3.5 px-24 leading-[100%] tracking-normal text-center align-middle rounded-full font-[Lexend] font-normal"
+          className="w-fit  bg-gradient-to-r from-[#C229C0] to-[#FC4B6A] text-white py-3.5 px-24 leading-[100%] tracking-normal text-center align-middle rounded-full hover:cursor-pointer font-[Lexend] font-normal"
         >
           Verify & Send Invite
         </button>

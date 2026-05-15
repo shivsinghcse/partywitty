@@ -1,11 +1,11 @@
-// components/VerificationScan.jsx
+
 import { useEffect } from 'react'
 import { X } from 'lucide-react'
 
 const VerificationScan = ({ onComplete }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
-      onComplete() // auto-complete after 3s for demo
+      onComplete() 
     }, 3000)
     return () => clearTimeout(timer)
   }, [onComplete])

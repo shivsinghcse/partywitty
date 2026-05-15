@@ -1,4 +1,4 @@
-// components/VerificationIntro.jsx
+
 import { X, CheckCircle } from 'lucide-react'
 
 const VerificationIntro = ({ onStart, onBack }) => {

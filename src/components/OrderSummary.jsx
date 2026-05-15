@@ -1,4 +1,4 @@
-// components/OrderSummary.jsx
+
 import Logo from './icons/Logo'
 import { useState } from 'react'
 import { ArrowLeft, Star, MapPin, Shield, Ellipsis } from 'lucide-react'

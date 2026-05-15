@@ -1,4 +1,4 @@
-// components/VerificationVibe.jsx
+
 import { Plus } from 'lucide-react'
 
 const VerificationVibe = ({ onFinish }) => {

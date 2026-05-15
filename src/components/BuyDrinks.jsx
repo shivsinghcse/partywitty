@@ -1,4 +1,4 @@
-// components/BuyDrinks.jsx
+
 import { useState } from 'react'
 import { MapPin, Clock, Edit, Check, Hand, Candy, Rose } from 'lucide-react'
 
@@ -85,7 +85,7 @@ const BuyDrinks = ({ profile, venue, onMakeTheMoveNow  }) => {
           </div>
         </div>
 
-        {/* Right Section - NOW SCROLLABLE */}
+        
         <div className="flex-1 bg-white rounded- shadow-lg flex flex-col min-h-0"> 
           <div className="p-6 overflow-y-auto flex-1"> 
             <h2 className="font-[Lexend] text-[18px] font-normal mb-1">One Step Before Your First Move</h2>
@@ -157,7 +157,7 @@ const BuyDrinks = ({ profile, venue, onMakeTheMoveNow  }) => {
             </div>
           </div>
 
-          {/* STICKY BUTTON AT BOTTOM */}
+          
           <div className="p-6 pt-0 border-t border-gray-100">
             <button 
               onClick={handleSubmit}

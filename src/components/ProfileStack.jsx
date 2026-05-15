@@ -1,9 +1,9 @@
 import ProfileCard from "./ProfileCard"
 
 const profiles = [
-  { id: 1, name: "Zoe Miller", age: 22, img: "./images/profileCardImage.jpg" }, // front
-  { id: 2, name: "Sarah", age: 24, img: "./images/user.png" }, // back 1
-  { id: 3, name: "Mia", age: 21, img: "./images/profilephoto.png" }, // back 2
+  { id: 1, name: "Zoe Miller", age: 22, img: "./images/profileCardImage.jpg" }, 
+  { id: 2, name: "Sarah", age: 24, img: "./images/user.png" }, 
+  { id: 3, name: "Mia", age: 21, img: "./images/profilephoto.png" }, 
 ]
 
 function ProfileStack({ onGoTonight }) {

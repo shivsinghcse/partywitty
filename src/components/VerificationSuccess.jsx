@@ -1,4 +1,4 @@
-// components/VerificationSuccess.jsx
+
 import { CheckCircle } from 'lucide-react'
 
 const VerificationSuccess = ({ onContinue }) => {

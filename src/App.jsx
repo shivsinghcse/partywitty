@@ -30,7 +30,7 @@ const App = () => {
     setCurrentView('venues') 
   }
 
-  const handleSelectVenue = (venue) => { // <- ADD THIS
+  const handleSelectVenue = (venue) => { 
     setSelectedVenue(venue)
     setCurrentView('drinks')
   }
@@ -78,7 +78,7 @@ const App = () => {
           <VenueSelection 
             profile={selectedProfile} 
             onSelectVenue={handleSelectVenue}
-            onGetVerified={handleGetVerified} // <- ADD PROP
+            onGetVerified={handleGetVerified} 
           />
         )}
         {currentView === 'drinks' && (
@@ -86,7 +86,7 @@ const App = () => {
             profile={selectedProfile} 
             venue={selectedVenue}
             onMakeTheMoveNow={handleMakeTheMoveNow}
-            onGetVerified={handleGetVerified} // <- ADD PROP
+            onGetVerified={handleGetVerified} 
             isVerified={isVerified}
           />
         )}

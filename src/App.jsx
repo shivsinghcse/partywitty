@@ -70,7 +70,7 @@ const App = () => {
   }
 
   return (
-    <div className="flex gap-10 h-screen">
+    <div className="flex gap-10 min-h-screen">
       <Sidebar />
       <div className="ml-80 flex-1 overflow-hidden">
        {currentView === 'feed' && <Main onGoTonight={handleGoTonight} onGetVerified={handleGetVerified} />}

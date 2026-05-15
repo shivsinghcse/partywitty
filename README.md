@@ -1,5 +1,4 @@
-# party witty
-
+# Party Witty
 > Send verified drink invites to people at your favorite venues
 
 ### Live Link
